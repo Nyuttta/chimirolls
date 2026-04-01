@@ -1,0 +1,72 @@
+{
+  "rolls": [
+    {
+      "id": "fila_losos",
+      "name": "Філадельфія з лососем",
+      "price": 290,
+      "weight": "310 г",
+      "desc": "Лосось, сир, авокадо, огірок",
+      "img": "product/Rolls/fila_losos.jpg"
+    },
+    {
+      "id": "fila_tuna",
+      "name": "Філадельфія з тунцем",
+      "price": 250,
+      "weight": "300 г",
+      "desc": "Краб, авокадо, огірок",
+      "img": "product/Rolls/fila_tuna.jpg"
+    },
+    {
+      "id": "fila_grebin",
+      "name": "Філадельфія з тунцем",
+      "price": 250,
+      "weight": "300 г",
+      "desc": "Краб, авокадо, огірок",
+      "img": "product/Rolls/fila_grebin.jpg"
+    },
+    {
+      "id": "fila_vugor",
+      "name": "Філадельфія з тунцем",
+      "price": 250,
+      "weight": "300 г",
+      "desc": "Краб, авокадо, огірок",
+      "img": "product/Rolls/fila_vugor.jpg"
+    },
+    {
+      "id": "fila_shrimp",
+      "name": "Філадельфія з тунцем",
+      "price": 250,
+      "weight": "300 г",
+      "desc": "Краб, авокадо, огірок",
+      "img": "product/Rolls/fila_shrimp.jpg"
+    }
+  ],
+  
+  "sets": [
+    {
+      "id": "set_fujn",
+      "name": "Філадельфія з лососем",
+      "price": 290,
+      "weight": "310 г",
+      "desc": "Лосось, сир, авокадо, огірок",
+      "img": "product/Sets/set_fujn.jpg"
+    },
+    {
+      "id": "set_na_dvoh",
+      "name": "Філадельфія з лососем",
+      "price": 290,
+      "weight": "310 г",
+      "desc": "Лосось, сир, авокадо, огірок",
+      "img": "product/Sets/set_na_dvoh.jpg"
+    },
+    {
+      "id": "set_family",
+      "name": "Філадельфія з лососем",
+      "price": 290,
+      "weight": "310 г",
+      "desc": "Лосось, сир, авокадо, огірок",
+      "img": "product/Sets/set_family.jpg"
+    }
+
+  ]
+}
