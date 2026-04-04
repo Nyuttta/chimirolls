@@ -87,33 +87,113 @@
       "weight": "280 г",
       "desc": "Мідії, сир, краб, сир Чедер, кунжут",
       "img": "product/Rolls/fila_cheder.jpg"
+    },
+    {
+      "id": "futomaki",
+      "name": "Футомакі",
+      "price": 380,
+      "weight": "370 г",
+      "desc": "Лосось, тунець, креветка, вугор, манго",
+      "img": "product/Rolls/futomaki.jpg"
+    },
+    {
+      "id": "maki_ququmber",
+      "name": "Макі з огірком",
+      "price": 70,
+      "weight": "100 г",
+      "desc": "Огірок",
+      "img": "product/Maki/maki_ququmber.jpg"
+    },
+    {
+      "id": "maki_avokado",
+      "name": "Макі з авокадо",
+      "price": 90,
+      "weight": "100 г",
+      "desc": "Авокадо",
+      "img": "product/Maki/maki_avokado.jpg"
+    },
+    {
+      "id": "maki_losos",
+      "name": "Макі з лососем",
+      "price": 110,
+      "weight": "100 г",
+      "desc": "Лосось",
+      "img": "product/Maki/maki_losos.jpg"
+    },
+    {
+      "id": "maki_tuna",
+      "name": "Макі з тунцем",
+      "price": 110,
+      "weight": "100 г",
+      "desc": "Тунець",
+      "img": "product/Maki/maki_tuna.jpg"
+    },
+    {
+      "id": "maki_shrimp",
+      "name": "Макі креветка",
+      "price": 110,
+      "weight": "100 г",
+      "desc": "Креветка",
+      "img": "product/Maki/maki_shrimp.jpg"
+    },
+    {
+      "id": "maki_vugor",
+      "name": "Макі з вугрем",
+      "price": 130,
+      "weight": "100 г",
+      "desc": "Вугор",
+      "img": "product/Maki/maki_vugor.jpg"
     }
   ],
   
   "sets": [
     {
       "id": "set_fujn",
-      "name": "Філадельфія з лососем",
-      "price": 290,
-      "weight": "310 г",
-      "desc": "Лосось, сир, авокадо, огірок",
+      "name": "Сет “Ф'южн”",
+      "price": 560,
+      "weight": "620 г",
+      "desc": "½ Філадельфія з лососем, ½ Філадельфія з тунецум, ½ Філадельфія з креветкою, ½ Філадельфія з вугре",
       "img": "product/Sets/set_fujn.jpg"
     },
     {
       "id": "set_na_dvoh",
-      "name": "Філадельфія з лососем",
-      "price": 290,
-      "weight": "310 г",
-      "desc": "Лосось, сир, авокадо, огірок",
+      "name": "Сет “На двох”",
+      "price": 650,
+      "weight": "710 г",
+      "desc": "Філадельфія з лососем, Філадельфія боніто, макі з вугрем",
       "img": "product/Sets/set_na_dvoh.jpg"
     },
     {
+      "id": "set_kali",
+      "name": "Сет “Каліфорнія”",
+      "price": 950,
+      "weight": "1080 г",
+      "desc": "Каліфорнія з лососем, Каліфорнія з тунцем, Каліфорнія з вугрем, Каліфорнія з креветкою",
+      "img": "product/Sets/set_kali.jpg"
+    },
+    {
       "id": "set_family",
-      "name": "Філадельфія з лососем",
-      "price": 290,
-      "weight": "310 г",
-      "desc": "Лосось, сир, авокадо, огірок",
+      "name": "Сет “Сімейний”",
+      "price": 1150,
+      "weight": "1300 г",
+      "desc": "Філадельфія з лососем, Філадельфія боніто, Філадельфія з креветкою, Чедер, макі з лососем",
       "img": "product/Sets/set_family.jpg"
+    },
+    {
+      "id": "set_fila",
+      "name": "Сет “Філадельфія”",
+      "price": 1390,
+      "weight": "1550 г",
+      "desc": "Філадельфія з лососем, Філадельфія з тунцем, Філадельфія з креветкою, Філадельфія з вугрем, Філадельфія з гребінцем",
+      "img": "product/Sets/set_fila.jpg"
+    },
+    {
+      "id": "set_maki",
+      "name": "Сет “Макі”",
+      "price": 550,
+      "weight": "600 г",
+      "desc": "Макі з лососем, Макі з тунцем, Макі з креветкою, Макі з вугрем, Макі з огірком, Макі з авокадо",
+      "img": "product/Sets/set_maki.jpg"
     }
 
   ]
