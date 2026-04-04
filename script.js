@@ -148,23 +148,26 @@ document.addEventListener("DOMContentLoaded", async () => {
         : "icons/heart-empty.png";
 
       btn.onclick = () => {
-        if (favorites.includes(id)) {
-          favorites = favorites.filter(f => f !== id);
-          icon.src = "icons/heart-empty.png";
+  if (favorites.includes(id)) {
+    favorites = favorites.filter(f => f !== id);
+    icon.src = "icons/heart-empty.png";
 
-          if (isFavoritesPage) {
-            card.remove();
-          }
-        } else {
-          favorites.push(id);
-          icon.src = "icons/heart-filled.png";
-        }
+    if (isFavoritesPage) {
+      card.remove();
+    }
+  } else {
+    favorites.push(id);
+    icon.src = "icons/heart-filled.png";
 
-        localStorage.setItem("favorites", JSON.stringify(favorites));
+    triggerFavAnimation(); // 🔥 ДОДАТИ СЮДИ
+  }
 
-        updateTotal();
-        toggleFavoritesState(); // 🔥 ДОДАНО
-      };
+  localStorage.setItem("favorites", JSON.stringify(favorites));
+
+  updateFavCount(); // 🔥 ДОДАТИ
+  updateTotal();
+  toggleFavoritesState();
+};
     });
   }
 
@@ -314,4 +317,35 @@ if (clearBtn) {
   });
 }
 
+/*Лічильник обраного*/
+function updateFavCount() {
+  const favs = JSON.parse(localStorage.getItem("favorites")) || [];
+  const countEl = document.querySelector(".fav-count");
+
+  countEl.textContent = favs.length;
+
+  // ховаємо якщо 0
+  if (favs.length === 0) {
+    countEl.style.display = "none";
+  } else {
+    countEl.style.display = "flex";
+  }
+}
+
+// виклик при загрузці
+updateFavCount();
+
+function triggerFavAnimation() {
+  const fab = document.querySelector(".favorites-fab");
+
+  const wave = document.createElement("span");
+  wave.classList.add("fav-wave");
+
+  fab.appendChild(wave);
+
+  // видаляємо після анімації
+  setTimeout(() => {
+    wave.remove();
+  }, 600);
+}
 
